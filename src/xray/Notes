@@ -1,0 +1,89 @@
+
+X-ray is a Test automation tool.
+
+Test Detail -> For manual test.A add action,data and expected result
+Test Sets -> Kind of folder,we can group some test together.
+Pre-Condition -> If we have repeated steps we can make them pre condition and to each step.
+
+****
+
+1.Test Plan: This like a folder for your test
+             We can create test plan for Sprint
+             We can create test plan for Epic
+
+Test -> inside that Test Plan we can create our ->
+
+        2.Tests(TC),then we create one test execution to execute them
+
+Per Sprint
+       We have -> 1 Test Plan
+                  1 Test Execution
+                  as many as needed test
+
+3.  Test Execution ->Is when you really do something.In test execution step by step execute and add evidence.
+    We add all test in test execution.
+           We can not execute test by themselves
+           We need test execution in order to test
+           We create one execution per test plan
+
+ How to create User Story?
+
+Open Jira -> just click create button -> select issue type -> Story ->giving name Summary -> Description -> put AC -> create
+
+How to create Test Plan?
+
+Click on -> Create button-> First check the project name.Make sure you are in the right project ,from issue type select -> Test Plan ->
+     on summary pick any name, but it should be matching your US summary.
+     Description -> AC -> if you know Environment -> you can copy past environment box -> creat.
+     And then -> click on Test Plan -> select more option -> and link your US
+
+     This issue : -> select related to ->Issue -> click on your US -> click link top to button.When you scroll down on page
+     you can see your US link it to your Test Plan.
+
+ How to create Test Case on Jira?
+
+   Click on -> Create button-> First check the project name.Make sure you are in the right project ->select Test -> give some summary
+            -> Description -> create
+            Then; click Test Cases -> when you scroll down little bit you can see ADD STEP - > click on -> you are able to write your step description
+            -> write our step description: first is step : open url -> click data -> (any input that you are) -> then click Expected Result -> click add
+               (bele davam edri Test Case stepler bitene qeder)
+
+ How to create Test Execution?
+
+    US -> TC -> TP -> are ready: You need to Test execution
+        Click create button -> Select -> Test Execution - Summary part take on US -> Description ->add AC
+
+        Two ways we can add or link our test cases and test plan:
+                        1.Go to Test Execution Details -> Select -> Test Environment and for Tests -> I can select my TC I need to execute.
+                          And for Test Plan -> I have to find out my Test Plan and added.Ones everything is done I can click on -> Create
+                          Then click -> Test Execution Ticket.So from here you can see my Test Case already linked on execution ->
+                          For execution I have to click on -> Execute first -> next page will be open
+                                        -> every single step we go to home page and see, compare expected result to actual result.if it is PASS
+                                                        we just click on -> PASS button
+                                        BUT: if that's FAIL
+                                             We dont have to continue to test.Just stop and back to our TC we need to open our Bug Ticket.
+                                             And than CREAT
+
+ How to create Bug Ticket?
+         Click create button -> Select -> Bug
+                        For summary -> I can say any(....)
+                        For Description Bug ticket should be different
+                                    Add environment,add Test Data,add Test steps,expected result and actually result
+
+****
+How to organized name on board?
+
+Go to -> Quick Filter -> name -> jql -> description -> add
+****
+
+JIRA - is a management tool
+       Epic -> is a big User Story
+       Issue -> Everything in jira is called an issue
+       Story -> It is for User Story
+       Task -> are related to stories, usually not pointed to track.
+       Bug -> for defect
+       Board -> will display current sprint.Every time when you create a story or any issue in Jira, Jira will give it unique number.
+
+
+
+
